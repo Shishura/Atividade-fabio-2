@@ -6,16 +6,14 @@ function greetUser(name?: string) {
   }
 }
 
+
+
+
 function calculateYearsUntilRetirement(age: number): number {
   return 65 - age;
 }
 
 
 function getRandomMessage(): string {
-  return Math.random() * 100;
+  return "Seu número aleatório é: " + (Math.random() * 100).toFixed(2);
 }
-
-
-greetUser(); 
-console.log(calculateYearsUntilRetirement("30"));
-console.log(getRandomMessage()); 

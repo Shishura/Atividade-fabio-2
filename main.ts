@@ -4,7 +4,7 @@ function greetUser(name?: string) {
 }
 
 
-function calculateYearsUntilRetirement(age: string): number {
+function calculateYearsUntilRetirement(age: number): number {
   return 65 - age;
 }
 
